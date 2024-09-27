@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -12,9 +13,9 @@
         <h1>🪭 Welcome to the Spanish poem generator 🪭</h1>
       </header>
       <main>
-        <form action="">
+        <form action="" id="poem-form">
           <input
-            class="text-bar"
+            class="textBar"
             type="text"
             placeholder="Enter the topic of the poem here..."
             autofocus
@@ -24,7 +25,7 @@
           <input class="submit" type="submit" />
         </form>
         <br />
-        <div class="poem-location" id="poemLocation">
+        <div class="poemLocation" id="poem-location">
           The poem will go here. <br />
           The poem will go here. <br />
           The poem will go here. <br />

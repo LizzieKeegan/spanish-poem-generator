@@ -45,7 +45,7 @@ form {
   background-color: #fcc4b0;
   color: #f19a43;
 }
-.text-bar {
+.textBar {
   background-color: #ffb66e;
   color: #0f3f62;
   border-radius: 10px;
@@ -55,10 +55,10 @@ form {
   padding-right: 80px;
   width: 70%;
 }
-.text-bar::placeholder {
+.textBar::placeholder {
   color: #d5331786;
 }
-.poem-location {
+.poemLocation {
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.361);
   padding: 20px;
