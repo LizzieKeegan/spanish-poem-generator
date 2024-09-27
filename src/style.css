@@ -1,6 +1,6 @@
 body {
   background-color: #f2a589;
-  font-family: monospace;
+  font-family: Helvetica, Arial, sans-serif;
   color: #d53417;
 }
 .container {
@@ -17,12 +17,20 @@ h1 {
 footer {
   color: #a38a66;
   font-size: smaller;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 a {
   color: #97805f;
 }
 h1 {
   font-size: 20px;
+}
+form {
+  background-color: rgba(255, 255, 255, 0.361);
+  border-radius: 5px;
+  padding: 20px 8px;
+  box-shadow: 0px 2px 30px 0px #f2a589;
 }
 .submit {
   font-weight: 600;
@@ -49,4 +57,12 @@ h1 {
 }
 .text-bar::placeholder {
   color: #d5331786;
+}
+.poem-location {
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.361);
+  padding: 20px;
+  line-height: 2;
+  border-left: 2px solid #d53417;
+  box-shadow: 0px 2px 30px 0px #f2a589;
 }
