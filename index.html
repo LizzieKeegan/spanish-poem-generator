@@ -7,41 +7,43 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the Spanish poem generator 🪭</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem here..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input class="submit" type="submit" />
-      </form>
+    <div class="container">
+      <header>
+        <h1>Welcome to the Spanish poem generator 🪭</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            class="text-bar"
+            type="text"
+            placeholder="Enter the topic of the poem here..."
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input class="submit" type="submit" />
+        </form>
+        <br />
+        <div class="poemLocation" id="poemLocation">The poem will go here.</div>
+      </main>
       <br />
-      <div class="poemLocation" id="poemLocation">The poem will go here.</div>
-    </main>
-    <br />
-    <footer>
-      This AI was coded by
-      <a href="https://github.com/LizzieKeegan" target="_blank"
-        >Lizzie Keegan</a
-      >
-      🐯 and is open sourced on
-      <a
-        href="https://github.com/LizzieKeegan/spanish-poem-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://espanol-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
-
+      <footer>
+        This AI was coded by
+        <a href="https://github.com/LizzieKeegan" target="_blank"
+          >Lizzie Keegan</a
+        >
+        🐯 and is open sourced on
+        <a
+          href="https://github.com/LizzieKeegan/spanish-poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://espanol-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
