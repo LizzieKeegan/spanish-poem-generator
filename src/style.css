@@ -1,3 +1,16 @@
 body {
+  background-color: #f0ece2;
   font-family: monospace;
+  color: #596e79;
+}
+.submit {
+  font-weight: 400;
+  background-color: #dfd3c3;
+  color: #596e79;
+  border-radius: 10px;
+  border-color: #dfd3c3;
+}
+.submit:hover {
+  color: #f0ece2;
+  background-color: #c7b198;
 }
