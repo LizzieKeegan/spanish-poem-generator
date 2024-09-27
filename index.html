@@ -14,20 +14,25 @@
         <h1>🪭 Welcome to the Spanish poem generator 🪭</h1>
       </header>
       <main>
-        <form action="" id="poem-form">
-          <input
-            class="textBar"
-            type="text"
-            placeholder="Enter the topic of the poem here..."
-            autofocus
-            required
-            autocomplete="off"
-            id="user-instructions"
-          />
-          <input class="submit" type="submit" />
-        </form>
+        <div class="form-container">
+          <form action="" id="poem-form">
+            <input
+              class="textBar"
+              type="text"
+              placeholder="Enter the topic of the poem here..."
+              autofocus
+              required
+              autocomplete="off"
+              id="user-instructions"
+            />
+            <input class="submit" type="submit" />
+            <br />
+            <br />
+            <small>Prompt examples: rose, sun or eyes...</small>
+          </form>
+        </div>
         <br />
-        <div class="poemLocation" id="poem-location"></div>
+        <div class="poemLocation hidden" id="poem-location"></div>
       </main>
       <br />
       <footer>
